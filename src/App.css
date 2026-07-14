@@ -1,0 +1,72 @@
+body {
+  margin:0;
+  background:#f2f4f8;
+  font-family:Arial,sans-serif;
+  color:#222;
+}
+h1{
+  text-align:center;
+  color:#222;
+}
+.container {
+  width:80%;
+  margin:40px auto;
+  text-align:center;
+  display:block;
+  margin:20px auto;
+}
+input {
+  width:300px;
+  padding:10px;
+  margin:20px;
+}
+.job-card {
+  cursor:pointer;
+  background:white;
+  color:#222;
+  width:300px;
+  min-height:200px;
+  margin:20px auto;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.15);
+  overflow:hidden;
+  box-sizing:border-box;
+}
+button {
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:8px 15px;
+  border-radius:8px 15px;
+  cursor:pointer;
+}
+.job-card h2{
+  font-size:20px;
+  line-height:1.4;
+  margin:10px 0;
+  text-align:center;
+  color:#2563eb;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  height:auto;
+  display:block;
+
+}
+.job-card p {
+  color:#555;
+}
+.navbar {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#2563eb;
+  padding:15px 30px;
+  color:white;
+  cursor:pointer;
+}
+.navbar a {
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+}
